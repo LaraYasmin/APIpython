@@ -26,6 +26,5 @@ Sobre o projeto em si:
 
 1 - Foi feito com Python/django/ninjaRestAPI
 2 - Crie seu super usuário para acesso no admin
-3 - Não foi dado deploy ou posto em um mysql na nuvem por questão de tempo e por estar aprendendo a lidar agora com essas situações
-4 - Para acessar o admin entre com /admin
-5 - Para acessar a api entre com /docs
+3 - Para acessar o admin entre com /admin
+4 - Para acessar a api entre com /docs
