@@ -1,30 +1,25 @@
-# ApiPython
+How to Use the Project:
 
-Como Usar o projeto:
+Create a virtual environment using the command -> python -m venv name_of_venv, then activate it -> name_of_venv/Scripts/activate
+Install the requirements within the virtual environment using the following command -> pip install -r requirements.txt
+My local database is named 'database', ideally, you should create a MySQL database on your local machine by editing the DATABASES section in the API settings.
 
-Crie uma venv com o comando -> python -m venv nome_da_venv,
-após isso, ative-a -> nome_da_venv/Scripts/activate
-
-Instale os requirements dentro do ambiente virtual com o seguinte comando -> pip install -r requirements.txt
-
-O meu banco de dados local está no database, o ideal é que você crie um banco de dados mysql na sua maquina local editando em DATABASES que está nas configurações da api.
-
-Exemplo: 
+Example:
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': '', #nome do banco de dados
-        'USER': '', #usuario do banco de dados
-        'PASSWORD': '', #senha do usuario do banco de dados
-        'HOST': '', #host do banco de dadoos
-        'PORT': '', #porta do banco de dados
+        'NAME': '', #database name
+        'USER': '', #database user
+        'PASSWORD': '', #database user's password
+        'HOST': '', #database host
+        'PORT': '', #database port
     }
 }
 
-Sobre o projeto em si:
+About the project itself:
 
-1 - Foi feito com Python/django/ninjaRestAPI
-2 - Crie seu super usuário para acesso no admin
-3 - Para acessar o admin entre com /admin
-4 - Para acessar a api entre com /docs
+1 - Developed using Python/Django/NinjaRestAPI
+2 - Create your superuser for access to the admin
+3 - To access the admin, go to /admin
+4 - To access the API, go to /docs
